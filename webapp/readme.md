@@ -12,4 +12,14 @@ sudo apt update
 sudo apt upgrade
 ```
 
-4. 
+4. Install necessary packages:
+
+```
+sudo apt install python3-pip python3-rdkit
+```
+
+5. Install necessary Python packages:
+
+```
+python3 -m pip install flask numpy pandas Flask-WTF scikit-learn 
+```
