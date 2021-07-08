@@ -7,9 +7,9 @@ Since RaspiOS has outdated RDKit module, then it is necessary to install some ot
 2. Plug SD card to your RPi and follow instructions. Default user and password are both "ubuntu". In case of problems with booting it may be necessary to plug off all USB devices (I encountered such issue). When the boot starts plug in your keyboard.
 3. Update system with following commands:
 
-'''
+```
 sudo apt update
 sudo apt upgrade
-'''
+```
 
 4. 
