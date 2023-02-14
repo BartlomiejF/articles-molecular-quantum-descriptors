@@ -1,0 +1,11 @@
+{% block content %}
+    <h1>Predict Emission Wavelength</h1>
+    <form action="" method="post" novalidate>
+        {{ form.hidden_tag() }}
+        <p>
+            {{ form.chromophore.label }}<br>
+            {{ form.chromophore(size=32) }}
+        </p>
+        <p>{{ form.submit() }}</p>
+    </form>
+{% endblock %}
