@@ -17,7 +17,7 @@ sudo apt install python3-pip
 3. Install necessary Python packages:
 
 ```
-python3 -m pip install flask numpy pandas Flask-WTF scikit-learn 
+python3 -m pip install flask numpy pandas Flask-WTF scikit-learn rdkit
 ```
 
 4. Download this repository and QM9 database. Put the database in dbs folder.
